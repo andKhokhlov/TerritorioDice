@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="GoHome">
+        <img src="/img/Ellipse.png">
+    </div>
+    <div class="Map-container">
+        <div class="Map">
+            <h1 >
+                Map
+            </h1>
+            <canvas class="can"  id="setka"canvas>
+        </div>
+    
+        <div class="tools__container">
+            
+            <div class="tools">
+                
+                <div class="btn">
+                    <button type="button" class="dice-roll" >
+                        Бросить кости
+                    </button>
+                    <button>
+                        Следующий ход
+                    </button>
+                </div>
+            </div>
+            <div class="tab">
+                <h1>Tab</h1>
+                <canvas class="tab-can"></canvas>
+                <div class="wrapper">
+                    <div class="column">
+                            <div id="dice-side-1" class="dice">0</div>
+                            <div id="dice-side-2" class="dice">0</div>
+                    </div>
+                    <div class="column">
+                            
+                            <!-- <h2 id="status"></h2> -->
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="server.js"></script> -->
+    <script src="main.js"></script>
+</body>
+</html>
